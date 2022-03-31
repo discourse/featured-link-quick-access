@@ -1,0 +1,7 @@
+{
+  "author": "chapoi,j.jaffeux",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}

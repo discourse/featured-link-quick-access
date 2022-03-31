@@ -1,0 +1,20 @@
+.user-menu .quick-access-panel,
+.user-menu .quick-access-panel:hover {
+  .featured-link-quick-access {
+    display: flex;
+    align-items: center;
+    padding: 0.25em 0;
+    color: var(--tertiary);
+    margin: 0 0.5em 0.5em 0.5em;
+    border-bottom: 1px solid var(--primary-low);
+
+    .featured-topic-title {
+      @include ellipsis;
+    }
+
+    .d-icon {
+      color: var(--tertiary);
+      margin-right: 0.5em;
+    }
+  }
+}
