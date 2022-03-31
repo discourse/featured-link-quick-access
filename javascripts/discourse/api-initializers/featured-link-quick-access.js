@@ -27,7 +27,7 @@ export default apiInitializer("0.11.1", (api) => {
 
     return helper.h(
       "a.featured-link-quick-access",
-      { href: `/t/${featuredTopic.slug}/${featuredTopic.id}` },
+      { href: `/t/${featuredTopic.slug}/${featuredTopic.id}/last` },
       [
         iconNode("thumbtack"),
         helper.h("span.featured-topic-title", featuredTopic.title),
