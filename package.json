@@ -1,7 +1,10 @@
 {
-  "author": "chapoi,j.jaffeux",
+  "name": "featured-link-quick-access",
+  "version": "1.0.0",
+  "repository": "https://github.com/discourse/featured-link-quick-access",
+  "author": "chapoi, j.jaffeux",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-discourse": "latest"
+    "eslint-config-discourse": "^3.1.0"
   }
 }
