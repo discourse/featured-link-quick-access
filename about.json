@@ -1,8 +1,7 @@
 {
+  "name": "featured-link-quick-access",
+  "component": true,
   "about_url": null,
   "license_url": null,
-  "assets": {
-  },
-  "name": "featured-link-quick-access",
-  "component": true
+  "assets": {}
 }

@@ -3,6 +3,8 @@ import { iconNode } from "discourse-common/lib/icon-library";
 
 export default apiInitializer("0.11.1", (api) => {
   api.modifyClass("controller:preferences/interface", {
+    pluginId: "featured-link-quick-access",
+
     actions: {
       save() {
         this.appEvents.trigger(
